@@ -102,6 +102,11 @@ h2 {
 #contact .social-links i:hover {
     color: var(--secondary-color);
 }
+/*  * wildcard selector to remove the background color 
+from all descendents of the table */
+#contact .table-dark * {
+    background-color: transparent;
+}
 
 /* grid visualisation for testing */
 /*
