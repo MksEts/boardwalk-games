@@ -65,6 +65,13 @@ h2 {
 #services .card{
     margin-bottom: 1.5rem;
 }
+
+/* Game library cars */
+#new-games .card,
+#fav-games .card {
+    border: none;
+}
+
 /* grid visualisation for testing */
 /*
 .container,
